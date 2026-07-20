@@ -1,0 +1,34 @@
+{
+  "name": "@context-pack/init",
+  "version": "1.0.0",
+  "description": "Install the project context pack into any repo. Copies skills and templates, then optionally initializes .context/ interactively.",
+  "type": "module",
+  "bin": {
+    "context-pack-init": "./src/cli.js",
+    "cpi": "./src/cli.js"
+  },
+  "files": [
+    "src/",
+    "template/"
+  ],
+  "keywords": [
+    "cline",
+    "claude-code",
+    "copilot",
+    "cursor",
+    "ai-coding",
+    "context",
+    "memory-pack",
+    "project-context"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimTmi/context-pack.git"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "inquirer": "^9.3.0",
+    "chalk": "^5.3.0"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Context"
+  short_description: "Audit .context files for staleness and accuracy."
+  default_prompt: "Audit the .context folder. Check that the context files are accurate, not stale, and still reflect the current codebase."
