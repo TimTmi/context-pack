@@ -1,0 +1,4 @@
+interface:
+  display_name: "Init Context"
+  short_description: "Initialize a project .context memory pack."
+  default_prompt: "Initialize the .context folder for this project. Ask me questions about the project so you can generate accurate context files."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Context"
+  short_description: "Surgically update .context files after completed work."
+  default_prompt: "Update the relevant .context files to reflect what I just completed or changed."

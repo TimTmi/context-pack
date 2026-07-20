@@ -1,0 +1,3 @@
+# Project-specific context (not part of the plugin template)
+.context/
+prompt.txt

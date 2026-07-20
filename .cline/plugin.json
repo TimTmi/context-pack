@@ -1,0 +1,35 @@
+{
+  "name": "project-context-pack",
+  "display_name": "Project Context Pack",
+  "description": "Initialize, use, update, and review a lightweight project .context memory pack. Helps AI agents maintain persistent project awareness across conversations.",
+  "version": "1.0.0",
+  "author": "context-pack",
+  "license": "MIT",
+  "min_cline_version": "1.0.0",
+  "skills": [
+    {
+      "name": "init-context",
+      "description": "Initialize a project .context memory pack by asking the user about their project",
+      "agent": "openai",
+      "path": "skills/init-context"
+    },
+    {
+      "name": "use-context",
+      "description": "Read and use the project .context memory pack efficiently",
+      "agent": "openai",
+      "path": "skills/use-context"
+    },
+    {
+      "name": "update-context",
+      "description": "Surgically update .context files after completing work",
+      "agent": "openai",
+      "path": "skills/update-context"
+    },
+    {
+      "name": "review-context",
+      "description": "Audit .context files for staleness and accuracy",
+      "agent": "openai",
+      "path": "skills/review-context"
+    }
+  ]
+}
