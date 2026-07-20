@@ -10,19 +10,19 @@ Maintain a lightweight `.context/` folder in any project. AI agents read it to i
 
 ```bash
 # Install skills + templates into current project (Cline default)
-npx @context-pack/init install
+npx @tmitmitmi/context-pack-init install
 
 # Or specify a project directory and agent
-npx @context-pack/init install --dest ../my-project --agent claude-code
+npx @tmitmitmi/context-pack-init install --dest ../my-project --agent claude-code
 
 # Interactive init: generates .context/ with your project details
-npx @context-pack/init init
+npx @tmitmitmi/context-pack-init init
 
 # Combined: install then auto-init
-npx @context-pack/init install --init
+npx @tmitmitmi/context-pack-init install --init
 
 # See all options
-npx @context-pack/init install --help
+npx @tmitmitmi/context-pack-init install --help
 ```
 
 > Note: Package publishing is pending. For now, clone the repo and copy the `packages/context-pack-init/template/` folder into your project, or run the CLI directly from the repo.

@@ -1,11 +1,11 @@
 {
-  "name": "@context-pack/init",
+  "name": "@tmitmitmi/context-pack-init",
   "version": "1.0.0",
   "description": "Install the project context pack into any repo. Copies skills and templates, then optionally initializes .context/ interactively.",
   "type": "module",
   "bin": {
-    "context-pack-init": "./src/cli.js",
-    "cpi": "./src/cli.js"
+    "context-pack-init": "src/cli.js",
+    "cpi": "src/cli.js"
   },
   "files": [
     "src/",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TimTmi/context-pack.git"
+    "url": "git+https://github.com/TimTmi/context-pack.git"
   },
   "dependencies": {
     "commander": "^12.0.0",
